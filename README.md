@@ -45,7 +45,10 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-Edit `.env` to match your database and mail configuration.
+Edit `.env` to match your database, frontend VueJs and mail configuration.
+```bash
+VITE_API_BASE_URL=http://127.0.0.1:8000
+```
 
 ### 4️⃣ Database Migration & Seeding
 Run migrations and seed the database:
