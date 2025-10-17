@@ -1,0 +1,18 @@
+
+  @import "@/assets/css/login.css";
+  @import "@/assets/css/styles.css";
+
+  /* Package CSS  */
+  @import 'element-plus/dist/index.css';
+  @import 'nprogress/nprogress.css';
+
+  #nprogress .bar {
+    background: #00a1ff !important;
+    padding: 0 35px !important;
+    height: 10px !important;
+  }
+
+  #nprogress .spinner .spinner-icon {
+    border-top-color: #00a1ff !important;
+    border-left-color: #00a1ff !important;
+  }
