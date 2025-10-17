@@ -46,6 +46,7 @@ php artisan key:generate
 ```
 
 Edit `.env` to match your database, frontend VueJs and mail configuration.
+set VITE_API_BASE_URL:
 ```bash
 VITE_API_BASE_URL=http://127.0.0.1:8000
 ```
