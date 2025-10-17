@@ -1,6 +1,6 @@
 # 🧩 Task Management System
 
-A robust **Task Management System** built with **Laravel 11** (backend) and **Vue.js 3** (frontend).  
+A robust **Task Management System** built with **Laravel 12** (backend) and **Vue.js 3** (frontend).  
 This system allows users to efficiently manage tasks through an intuitive interface, complete with authentication, role-based access control, RESTful API integration, and performance optimization.
 
 ---
@@ -89,6 +89,13 @@ php artisan test
 | DELETE | `/api/tasks/{id}` | Delete a task | Required |
 
 All routes are protected via **Laravel Sanctum** authentication.
+
+# Task Management System API Documentation
+
+This API provides endpoints to manage Task Management System functionalities such as role-based users, tasks, and users.
+You can find the full API documentation on Postman here:
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/9268269/2sB3QQHT8h)
 
 ---
 
