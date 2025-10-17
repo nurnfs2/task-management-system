@@ -113,12 +113,13 @@ As the application grows, consider the following strategies to maintain performa
 
 ## 🧰 Technologies Used
 
-- **Backend:** Laravel 11 (PHP 8+)
+- **Backend:** Laravel 12 (PHP 8+)
 - **Frontend:** Vue.js 3 with Composition API
 - **Database:** MySQL
 - **Authentication:** Laravel Sanctum
 - **Queue Driver:** Database / Redis
-- **UI Library:** Element Plus (optional)
+- **State Management:** Pinia
+- **UI Library:** Element Plus, nprogress, vee-validate, yup (optional)
 - **Caching:** Laravel Cache / Redis
 
 ---
@@ -151,8 +152,8 @@ Task-Management-System/
 
 **Developed by:** Nur Alam  
 **Position:** Assistant Manager, ICT – Kallol Group of Companies  
-**GitHub:** [github.com/nuralamict](https://github.com/nuralamict)  
-**Email:** nuralamict@gmail.com  
+**GitHub:** [github.com/nurnfs2](https://github.com/nurnfs2)  
+**Email:** cenur10@gmail.com  
 
 ---
 
