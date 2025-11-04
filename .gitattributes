@@ -1,11 +1,26 @@
+# Auto normalize line endings
 * text=auto eol=lf
 
+# Diff settings
 *.blade.php diff=html
 *.css diff=css
 *.html diff=html
 *.md diff=markdown
 *.php diff=php
 
+# GitHub Linguist overrides (to fix "Hack" detection issue)
+*.php linguist-language=PHP
+*.blade.php linguist-language=Blade
+*.vue linguist-language=Vue
+*.js linguist-language=JavaScript
+*.css linguist-language=CSS
+
+# Ignore vendor/build dirs in language stats
+/vendor/* linguist-vendored
+/node_modules/* linguist-vendored
+/dist/* linguist-vendored
+
+# Export-ignore rules
 /.github export-ignore
 CHANGELOG.md export-ignore
 .styleci.yml export-ignore
